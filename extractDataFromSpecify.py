@@ -1,11 +1,6 @@
 import mysql.connector as mysql
 from mysql.connector import Error
-
-#Database credentials
-HOST = #####
-DATABASE = #####
-USER = #####
-PASSWORD = #####
+from loginCredentials import *
 
 
 def extractDatesFromDB():
